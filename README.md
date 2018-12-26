@@ -19,6 +19,7 @@ Contains a function sample(model, sess, chars, vocab, args) that samples from th
 
 Running load_to_sample.py should load the model and produce a sample:
 
+```
 >>> execfile('load_to_sample.py')
 2018-12-26 10:15:34.050694: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
 INFO:tensorflow:Restoring parameters from save/ekelogs/model.ckpt-411
@@ -37,9 +38,10 @@ Kuru:	Good do the unish
 RyuYaStoat:	Feally... there's There!
 RyuYaStoat:	So play Cuper?
 Rukes Kewl:	Can't some thing pbus, and such this word for 
+```
 
 You can then sample again using
-
+```
 >>> sample(model, sess, chars, vocab, args)
-
+```
 
