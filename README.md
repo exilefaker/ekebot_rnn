@@ -17,7 +17,9 @@ Contains a function sample(model, sess, chars, vocab, args) that samples from th
 
 # example
 
-Running load_to_sample.py should load the model and produce a sample:
+First create a directory save/ekelogs and place the files from model.zip there
+
+Running load_to_sample.py should then load the model and produce a sample:
 
 ```
 >>> execfile('load_to_sample.py')
