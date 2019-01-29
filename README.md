@@ -2,7 +2,7 @@
 
 Minimal files necessary to sample from the VGL language model
 
-Main code is a slightly modified version of the Tensorflow implementation of char-ran:
+Main code is a slightly modified version of the Tensorflow implementation of char-rnn:
 https://github.com/sherjilozair/char-rnn-tensorflow/blob/master/model.py
 
 So, requires tensorflow and numpy; also uses six
